@@ -1,6 +1,10 @@
-$(window).on("load", function () {
-  "use strict";
-  $(document).ready(function () {
+//  $(window).on("load", function () {
+  
+  // $(document).ready(function () {
+
+  $(document).on('ready', function () {
+
+
     console.log("Loading1");
     /**-----------------------------
      *  Navbar fix
@@ -49,7 +53,7 @@ $(window).on("load", function () {
 
     $(document).on("click", ".portfolio-filter-buttons button", function (e) {
       e.preventDefault();
-      // console.log('FILTER BUTTON')
+       console.log('FILTER BUTTON')
 
       var filterbtn = $(".filter-btn");
 
@@ -67,60 +71,9 @@ $(window).on("load", function () {
 
 
 
-    // $(".project-slider-container-s1").slick({
-    //   dots: true,
-    //   infinite: true,
-    //   autoplay: false,
-    //   prevArrow: "",
-    //   nextArrow: "",
-    //   speed: 300,
-    //   slidesToShow: 3,
-
-    //   slidesToScroll: 1,
-    //   responsive: [
-    //     {
-    //       breakpoint: 992,
-    //       settings: {
-    //         slidesToShow: 1,
-    //         slidesToScroll: 1,
-    //         infinite: true,
-    //         dots: false,
-    //       },
-    //     },
-    //     { breakpoint: 600, settings: { slidesToShow: 2, slidesToScroll: 1 } },
-    //     { breakpoint: 480, settings: { slidesToShow: 1, slidesToScroll: 1 } },
-    //   ],
-    // });
+  
 
 
 
-
-    $(".project-slider-container-s1").slick({
-      dots: true,
-      infinite: true,
-      autoplay: false,
-      prevArrow: "",
-      nextArrow: "",
-      speed: 300,
-      slidesToShow: 3,
-
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: false,
-            arrows: false,
-          },
-        },
-
-        {
-          breakpoint: 480,
-          settings: { slidesToShow: 1, slidesToScroll: 1 },
-        },
-      ],
-    });
+ 
   });
-});
