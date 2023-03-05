@@ -15,7 +15,15 @@ export default function About() {
 <BannerAbout/>
 <Features/>
 
-<TeamSlider/>
+<div className="w-full lg:w-full mx-12 flex flex-wrap px-3 wow animate__animated animate__fadeIn" data-wow-delay=".5s">
+                                <div className="relative w-full rounded">
+                                    <div className="carausel-fade slick-carausel rounded" id="carausel-fade-1">
+                                    <TeamSlider/>
+                                    </div>
+                                </div>
+                            </div>
+
+
 
 
 

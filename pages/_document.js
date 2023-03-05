@@ -24,7 +24,7 @@ export default function Document() {
 
 <Script src="assets/js/vendor/font-awesome.min.js"  async   strategy='beforeInteractive' ></Script>
 <Script src="assets/js/vendor/jquery.min.js" async   strategy='beforeInteractive' ></Script>
-<Script src="assets/js/vendor/slick.min.js" async   strategy='beforeInteractive' ></Script>
+{/* <Script src="assets/js/vendor/slick.min.js" async   strategy='beforeInteractive' ></Script> */}
 <Script src="assets/js/vendor/waypoints.min.js" async   strategy='beforeInteractive' ></Script>
 <Script src="assets/js/vendor/counterup.min.js" async   strategy='beforeInteractive' ></Script>
 <Script src="assets/js/vendor/isotope.min.js" async   strategy='beforeInteractive' ></Script>
@@ -33,7 +33,7 @@ export default function Document() {
 <Script src="assets/js/vendor/gsap.min.js" async   strategy='beforeInteractive' ></Script>
 <Script src="assets/js/vendor/scrollTrigger.min.js" async   strategy='beforeInteractive' ></Script>
 <Script src="assets/js/animations.js" async   strategy='beforeInteractive' ></Script>
-<Script src="assets/js/plugins.js" async   strategy='beforeInteractive' ></Script>
+{/* <Script src="assets/js/plugins.js" async   strategy='beforeInteractive' ></Script> */}
 <Script src="assets/js/main.js" async   strategy='beforeInteractive' ></Script>
 
 <Script src="assets/js/me.js" async   strategy='beforeInteractive' ></Script>

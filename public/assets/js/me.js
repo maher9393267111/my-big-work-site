@@ -46,7 +46,6 @@ $(document).on('click', '#nav-cls-btn', function (e) {
 
 
 
-$('.team-slider-s1').slick({dots:true,infinite:true,autoplay:false,prevArrow:'',nextArrow:'',speed:300,slidesToShow:4,slidesToScroll:1,responsive:[{breakpoint:992,settings:{slidesToShow:2,slidesToScroll:1,infinite:true,dots:false}},{breakpoint:600,settings:{slidesToShow:2,slidesToScroll:1}},{breakpoint:480,settings:{slidesToShow:1,slidesToScroll:1}}]});$('.feature-s3-inner').slick({dots:true,infinite:true,autoplay:true,prevArrow:'',nextArrow:'',speed:300,slidesToShow:3,slidesToScroll:1,responsive:[{breakpoint:992,settings:{slidesToShow:1,slidesToScroll:1,infinite:true,dots:false}},{breakpoint:600,settings:{slidesToShow:2,slidesToScroll:1}},{breakpoint:480,settings:{slidesToShow:1,slidesToScroll:1}}]});
 
 
 

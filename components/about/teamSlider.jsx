@@ -1,104 +1,36 @@
 import React from 'react'
+import SwiperCore, { Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import Link from 'next/link';
+SwiperCore.use([Navigation]);
 
 export default function TeamSlider() {
+
   return (
     <div>
 
-<section className="team-area-s2 s-padding-b">
-<div className="container">
-<div className="s-title-wrap">
-<span className="s-sub-title">Our Team</span>
-<h2 className="s-title">Our Expart Team Member</h2>
-</div>
-<div className="row team-slider-s1">
-<div className="col-lg-3">
-<div className="single-team-s2">
-<div className="thumb">
-<img src="assets/images/thumbs/about-team-1.jpg" alt="" />
-<ul className="social-icons-s1">
-<li>
-<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-facebook-f"></i
-                    ></a>
-</li>
-<li>
-<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-twitter"></i
-                    ></a>
-</li>
-<li>
-<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-linkedin-in"></i
-                    ></a>
-</li>
-<li>
-<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-youtube"></i
-                    ></a>
-</li>
-</ul>
-</div>
-<div className="content">
-<h3 className="name">Deniella Rhodes</h3>
-<p className="designation">CEO of Antech</p>
-</div>
-</div>
-</div>
-<div className="col-lg-3">
-<div className="single-team-s2">
-<div className="thumb">
-<img src="assets/images/thumbs/about-team-2.jpg" alt="" />
-<ul className="social-icons-s1">
-<li>
-<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-facebook-f"></i
-                    ></a>
-</li>
-<li>
-<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-twitter"></i
-                    ></a>
-</li>
-<li>
-<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-linkedin-in"></i
-                    ></a>
-</li>
-<li>
-<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-youtube"></i
-                    ></a>
-</li>
-</ul>
-</div>
-<div className="content">
-<h3 className="name">David Phillips</h3>
-<p className="designation">Senior Developer</p>
-</div>
-</div>
-</div>
-<div className="col-lg-3">
-<div className="single-team-s2">
-<div className="thumb">
-<img src="assets/images/thumbs/about-team-3.jpg" alt="" />
-<ul className="social-icons-s1">
-<li>
-<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-facebook-f"></i
-                    ></a>
-</li>
-<li>
-<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-twitter"></i
-                    ></a>
-</li>
-<li>
-<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-linkedin-in"></i
-                    ></a>
-</li>
-<li>
-<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-youtube"></i
-                    ></a>
-</li>
-</ul>
-</div>
-<div className="content">
-<h3 className="name">Lauren Davison</h3>
-<p className="designation">Software Developer</p>
-</div>
-</div>
-</div>
-<div className="col-lg-3">
+
+
+
+<>
+<Swiper
+                breakpoints={{                 
+                  // when window width is >= 768px
+                  768: {
+                    width: 768,
+                    slidesPerView: 2,
+                  },
+                }}
+                slidesPerView={1}
+                spaceBetween={30}
+                loop={true}
+                navigation={{
+                    prevEl: ".custom_prev",
+                    nextEl: ".custom_next"
+                }}             
+            >
+                <SwiperSlide>
+                <div className="">
 <div className="single-team-s2">
 <div className="thumb">
 <img src="assets/images/thumbs/about-team-4.jpg" alt="" />
@@ -127,10 +59,11 @@ export default function TeamSlider() {
 </div>
 </div>
 </div>
-<div className="col-lg-3">
-<div className="single-team-s2">
+                </SwiperSlide>
+                <SwiperSlide>
+                <div className="single-team-s2">
 <div className="thumb">
-<img src="assets/images/thumbs/about-team-1.jpg" alt="" />
+<img src="assets/images/thumbs/about-team-4.jpg" alt="" />
 <ul className="social-icons-s1">
 <li>
 <a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-facebook-f"></i
@@ -151,14 +84,92 @@ export default function TeamSlider() {
 </ul>
 </div>
 <div className="content">
-<h3 className="name">Deniella Rhodes</h3>
-<p className="designation">CEO of Antech</p>
+<h3 className="name">Druid Wensleydale</h3>
+<p className="designation">Marketing Expert</p>
 </div>
 </div>
+
+                </SwiperSlide>
+                <SwiperSlide>
+                <div className="single-team-s2">
+<div className="thumb">
+<img src="assets/images/thumbs/about-team-4.jpg" alt="" />
+<ul className="social-icons-s1">
+<li>
+<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-facebook-f"></i
+                    ></a>
+</li>
+<li>
+<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-twitter"></i
+                    ></a>
+</li>
+<li>
+<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-linkedin-in"></i
+                    ></a>
+</li>
+<li>
+<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-youtube"></i
+                    ></a>
+</li>
+</ul>
+</div>
+<div className="content">
+<h3 className="name">Druid Wensleydale</h3>
+<p className="designation">Marketing Expert</p>
 </div>
 </div>
+
+                </SwiperSlide>
+                <SwiperSlide>
+                <div className="single-team-s2">
+<div className="thumb">
+<img src="assets/images/thumbs/about-team-4.jpg" alt="" />
+<ul className="social-icons-s1">
+<li>
+<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-facebook-f"></i
+                    ></a>
+</li>
+<li>
+<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-twitter"></i
+                    ></a>
+</li>
+<li>
+<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-linkedin-in"></i
+                    ></a>
+</li>
+<li>
+<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-youtube"></i
+                    ></a>
+</li>
+</ul>
 </div>
-</section>
+<div className="content">
+<h3 className="name">Druid Wensleydale</h3>
+<p className="designation">Marketing Expert</p>
+</div>
+</div>
+
+                </SwiperSlide>
+            </Swiper>
+
+            <div id="carausel-2-columns-1-arrows" className="flex">
+                <span className="mr-4 text-blue-500 flex slick-arrow custom_prev">
+                    <svg className="w-6 h-6" fill="none" stroke="#20676a" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16l-4-4m0 0l4-4m-4 4h18"></path>
+                    </svg>
+                </span>
+                <span className="text-blue-500 flex slick-arrow custom_next">
+                    <svg className="w-6 h-6" fill="none" stroke="#20676a" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                    </svg>
+                </span>
+            </div>
+
+</>
+
+
+
+
 
     </div>
   )
