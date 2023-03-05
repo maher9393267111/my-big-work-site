@@ -19,43 +19,32 @@ export default function Document() {
         <NextScript />
 
 
-        {/* <Script 
-         type="text/javascript"
-        src="assets/js/vendor.js" 
-        strategy='beforeInteractive'
-        ></Script> */}
     
- 
-{/* ---------------- */}
-<script data-cfasync="false" src="https://quomodothemes.website/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/vendor/font-awesome.min.js"></script>
-<Script src="assets/js/vendor/jquery.min.js"  async   strategy='beforeInteractive'  ></Script>
+<Script data-cfasync="false" src="https://quomodothemes.website/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></Script>
 
-<Script src="assets/js/vendor/slick.min.js"  async   strategy='beforeInteractive' ></Script>
-<Script    type="text/javascript" src="assets/js/plugins.js"   async  strategy='beforeInteractive'  ></Script>
-
-
-
-
-
-{/* <Script data-cfasync="false" src="https://quomodothemes.website/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js" async> 
-</Script> */}
-<Script src="assets/js/vendor/font-awesome.min.js" async    strategy='beforeInteractive' ></Script>
-
-
+<Script src="assets/js/vendor/font-awesome.min.js"  async   strategy='beforeInteractive' ></Script>
+<Script src="assets/js/vendor/jquery.min.js" async   strategy='beforeInteractive' ></Script>
+<Script src="assets/js/vendor/slick.min.js" async   strategy='beforeInteractive' ></Script>
 <Script src="assets/js/vendor/waypoints.min.js" async   strategy='beforeInteractive' ></Script>
 <Script src="assets/js/vendor/counterup.min.js" async   strategy='beforeInteractive' ></Script>
 <Script src="assets/js/vendor/isotope.min.js" async   strategy='beforeInteractive' ></Script>
-{/* <Script src="assets/js/vendor/youtube.api.js" async strategy='beforeInteractive'>    </Script> */}
+<Script src="assets/js/vendor/youtube.api.js" async   strategy='beforeInteractive' ></Script>
 <Script src="assets/js/videoPopup.js" async   strategy='beforeInteractive' ></Script>
 <Script src="assets/js/vendor/gsap.min.js" async   strategy='beforeInteractive' ></Script>
 <Script src="assets/js/vendor/scrollTrigger.min.js" async   strategy='beforeInteractive' ></Script>
-<Script src="assets/js/animations.js" async   strategy='beforeInteractive' ></Script> 
+<Script src="assets/js/animations.js" async   strategy='beforeInteractive' ></Script>
+<Script src="assets/js/plugins.js" async   strategy='beforeInteractive' ></Script>
+<Script src="assets/js/main.js" async   strategy='beforeInteractive' ></Script>
+
+<Script src="assets/js/me.js" async   strategy='beforeInteractive' ></Script>
 
 
-<Script    type="text/javascript" src="assets/js/main.js"  async   strategy='beforeInteractive'  ></Script>
 
-<Script    type="text/javascript" src="assets/js/me.js"   async  strategy='beforeInteractive'  ></Script>
 
+
+
+
+{/* // async   strategy='beforeInteractive'  */}
 
 
       </body>
