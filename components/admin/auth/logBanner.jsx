@@ -7,10 +7,10 @@ export default function LogBanner() {
 <div className="container">
 <div className="row">
 <div className="content">
-<h1>Projects</h1>
+<h1>ADMIN LOGIN</h1>
 <ul className="breadcrumb">
 <li><a href="#">Home</a></li>
-<li><a href="">Projects</a></li>
+<li><a href="">Login</a></li>
 </ul>
 </div>
 </div>
