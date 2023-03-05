@@ -7,9 +7,9 @@ export default function Document() {
       <Head >
 
       <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
-<link rel="stylesheet" href="assets/css/vendor/slick.css" />
-<link rel="stylesheet" href="assets/css/vendor/floating.css" />
-<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="stylesheet" href="/assets/css/vendor/slick.css" />
+<link rel="stylesheet" href="/assets/css/vendor/floating.css" />
+<link rel="stylesheet" href="/assets/css/style.css" />
 
 
 
@@ -28,7 +28,7 @@ export default function Document() {
 
 <Script    type="text/javascript" src="/assets/js/vendor/font-awesome.min.js"  async   strategy='beforeInteractive' ></Script>
 <Script   type="text/javascript" src="/assets/js/vendor/jquery.min.js" async   strategy='beforeInteractive' ></Script>
-<Script   type="text/javascript" src="/assets/js/vendor/slick.min.js"  async   strategy='beforeInteractive' ></Script>
+{/* <Script   type="text/javascript" src="/assets/js/vendor/slick.min.js"  async   strategy='beforeInteractive' ></Script> */}
 <Script   type="text/javascript" src="/assets/js/vendor/waypoints.min.js" async   strategy='beforeInteractive' ></Script>
 <Script   type="text/javascript" src="/assets/js/vendor/counterup.min.js" async   strategy='beforeInteractive' ></Script>
 <Script   type="text/javascript" src="/assets/js/vendor/isotope.min.js" async   strategy='beforeInteractive' ></Script>

@@ -35,3 +35,16 @@ a {
   overflow-y: scroll !important;
   /* background-color: aquamarine; */
 }
+
+.slick-dots li button:before{
+
+display: none;
+
+
+
+}
+
+.slick-dots li {
+height: 12px !important;
+
+}

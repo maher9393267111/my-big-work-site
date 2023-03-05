@@ -22,7 +22,12 @@ $('.team-slider-s1').slick({dots:true,infinite:true,autoplay:false,prevArrow:'',
 
 
 
-$('.project-slider-container-s2').slick({dots:true,infinite:true,autoplay:false,prevArrow:'',nextArrow:'',speed:300,slidesToShow:3,slidesToScroll:1,responsive:[{breakpoint:992,settings:{slidesToShow:2,slidesToScroll:1,infinite:true,dots:false}},{breakpoint:600,settings:{slidesToShow:2,slidesToScroll:1}},{breakpoint:600,settings:{slidesToShow:1,slidesToScroll:1}}]});$('.portfolio-gallery-container').isotope({itemSelector:'.portfolio-item',percentPosition:true,filter:'*',animationOptions:{duration:750,easing:'linear',queue:false},masonry:{columnWidth:'.portfolio-item'}})
+$('.project-slider-container-s2').slick({dots:true,infinite:true,autoplay:false,prevArrow:'',nextArrow:'',speed:300,slidesToShow:3,slidesToScroll:1,responsive:[{breakpoint:992,settings:{slidesToShow:2,slidesToScroll:1,infinite:true,dots:false}},{breakpoint:600,settings:{slidesToShow:2,slidesToScroll:1}},{breakpoint:600,settings:{slidesToShow:1,slidesToScroll:1}}]});
+
+
+
+
+$('.portfolio-gallery-container').isotope({itemSelector:'.portfolio-item',percentPosition:true,filter:'*',animationOptions:{duration:750,easing:'linear',queue:false},masonry:{columnWidth:'.portfolio-item'}})
 $('.portfolio-filter-buttons button').click(function(){$('.filter-btn').removeClass('current');$(this).addClass('current');var selector=$(this).attr('data-filter');$('.portfolio-gallery-container').isotope({filter:selector,animationOptions:{duration:1000,easing:'linear',queue:false}});return false;});$('.image-slider-s1').slick({dots:true,infinite:true,autoplay:false,prevArrow:'',nextArrow:'',speed:300,slidesToShow:2,slidesToScroll:1,responsive:[{breakpoint:992,settings:{slidesToShow:1,slidesToScroll:1,infinite:true,dots:false}},{breakpoint:600,settings:{slidesToShow:2,slidesToScroll:1}},{breakpoint:480,settings:{slidesToShow:1,slidesToScroll:1}}]}
 
 )
