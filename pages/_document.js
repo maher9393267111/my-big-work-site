@@ -26,21 +26,21 @@ export default function Document() {
 {/* <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> */}
 
-<Script    type="text/javascript" src="/assets/js/vendor/font-awesome.min.js"  async   strategy='beforeInteractive' ></Script>
+<Script    type="text/javascript" src="/assets/js/vendor/font-awesome.min.js"  async   strategy='lazyOnload' ></Script>
 <Script   type="text/javascript" src="/assets/js/vendor/jquery.min.js" async   strategy='beforeInteractive' ></Script>
-{/* <Script   type="text/javascript" src="/assets/js/vendor/slick.min.js"  async   strategy='beforeInteractive' ></Script> */}
-<Script   type="text/javascript" src="/assets/js/vendor/waypoints.min.js" async   strategy='beforeInteractive' ></Script>
-<Script   type="text/javascript" src="/assets/js/vendor/counterup.min.js" async   strategy='beforeInteractive' ></Script>
-<Script   type="text/javascript" src="/assets/js/vendor/isotope.min.js" async   strategy='beforeInteractive' ></Script>
-<Script   type="text/javascript" src="/assets/js/vendor/youtube.api.js" async   strategy='beforeInteractive' ></Script>
-<Script   type="text/javascript"src="/assets/js/videoPopup.js" async   strategy='beforeInteractive' ></Script>
-<Script   type="text/javascript" src="/assets/js/vendor/gsap.min.js" async   strategy='beforeInteractive' ></Script>
-<Script   type="text/javascript" src="/assets/js/vendor/scrollTrigger.min.js" async   strategy='beforeInteractive' ></Script>
-<Script src="/assets/js/animations.js" async   strategy='beforeInteractive' ></Script>
-{/* <Script src="assets/js/plugins.js" async   strategy='beforeInteractive' ></Script> */}
-<Script   type="text/javascript" src="/assets/js/main.js" async    strategy='lazyOnload' ></Script>
+<Script   type="text/javascript" src="/assets/js/vendor/slick.min.js"  async   strategy='lazyOnload' ></Script>
+<Script   type="text/javascript" src="/assets/js/vendor/waypoints.min.js" async   strategy='lazyOnload' ></Script>
+<Script   type="text/javascript" src="/assets/js/vendor/counterup.min.js" async   strategy='lazyOnload' ></Script>
+<Script   type="text/javascript" src="/assets/js/vendor/isotope.min.js" async   strategy='lazyOnload' ></Script>
+<Script   type="text/javascript" src="/assets/js/vendor/youtube.api.js" async   strategy='lazyOnload' ></Script>
+<Script   type="text/javascript"src="/assets/js/videoPopup.js" async   strategy='lazyOnload' ></Script>
+<Script   type="text/javascript" src="/assets/js/vendor/gsap.min.js" async   strategy='lazyOnload' ></Script>
+<Script   type="text/javascript" src="/assets/js/vendor/scrollTrigger.min.js" async   strategy='lazyOnload' ></Script>
+<Script src="/assets/js/animations.js" async   strategy='lazyOnload' ></Script>
+<Script src="assets/js/plugins.js" async   strategy='lazyOnload' ></Script>
+<Script   type="text/javascript" src="/assets/js/main.js" async  strategy='lazyOnload'   ></Script>
 
-<Script    type="text/javascript" src="/assets/js/me.js" async   strategy='lazyOnload' ></Script>
+{/* <Script    type="text/javascript" src="/assets/js/me.js" async   strategy='lazyOnload' ></Script> */}
 
 
 

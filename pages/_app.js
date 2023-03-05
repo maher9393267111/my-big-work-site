@@ -1,6 +1,8 @@
 import '../styles/globals.css'
 import { useEffect, useState } from "react";
 import "swiper/css";
+import { StateContextProvider } from "../context/index";
+import { ToastContainer } from "react-toastify";
 
 function MyApp({ Component, pageProps }) {
   const [isSSR, setIsSSR] = useState(true);
@@ -16,7 +18,12 @@ function MyApp({ Component, pageProps }) {
     <>
     {!isSSR && (
     
-    <Component {...pageProps} /> )}
+    <StateContextProvider>
+    <Component {...pageProps} /> 
+    </StateContextProvider>
+    
+    )}
+ 
 
   
   </>

@@ -62,7 +62,7 @@ export default function ServiceSlider() {
     return (
         <div>
 
-            {/* ---------SLIDER_------ */}
+            {/* ---------SLIDER_ONE------ */}
 
             <section className="project-slider-area-s1  ">
                 <div className="container-fluid">
@@ -241,6 +241,16 @@ export default function ServiceSlider() {
                 </div>
             </section>
 
+
+
+
+
+
+
+
+
+
+   {/* ---------SLIDER_TWO------ */}
 
 
             <section class="project-slider-area-s2 s-padding">
