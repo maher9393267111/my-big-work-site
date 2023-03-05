@@ -152,7 +152,7 @@ export default function TeamSlider() {
                 </SwiperSlide>
             </Swiper>
 
-            <div id="carausel-2-columns-1-arrows" className="flex">
+            <div id="carausel-2-columns-1-arrows " className="flex  mt-4 mb-4 ml-6">
                 <span className="mr-4 text-blue-500 flex slick-arrow custom_prev">
                     <svg className="w-6 h-6" fill="none" stroke="#20676a" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16l-4-4m0 0l4-4m-4 4h18"></path>
