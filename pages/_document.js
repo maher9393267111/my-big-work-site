@@ -29,6 +29,7 @@ export default function Document() {
 {/* ---------------- */}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.js"async integrity="sha512-nO7wgHUoWPYGCNriyGzcFwPSF+bPDOR+NvtOYy2wMcWkrnCNPKBcFEkU80XIN14UVja0Gdnff9EmydyLlOL7mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+<Script src="assets/js/vendor/jquery.min.js"  async   strategy='beforeInteractive'  ></Script>
 
 <Script src="assets/js/vendor/slick.min.js"  async   strategy='beforeInteractive' ></Script>
 <Script    type="text/javascript" src="assets/js/plugins.js"   async  strategy='beforeInteractive'  ></Script>
@@ -42,7 +43,7 @@ export default function Document() {
 {/* <Script data-cfasync="false" src="https://quomodothemes.website/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js" async> 
 </Script> */}
 <Script src="assets/js/vendor/font-awesome.min.js" async    strategy='beforeInteractive' ></Script>
-<Script src="assets/js/vendor/jquery.min.js"  async   strategy='beforeInteractive'  ></Script>
+
 
 <Script src="assets/js/vendor/waypoints.min.js" async   strategy='beforeInteractive' ></Script>
 <Script src="assets/js/vendor/counterup.min.js" async   strategy='beforeInteractive' ></Script>
