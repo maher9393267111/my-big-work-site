@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import "swiper/css";
 import { StateContextProvider } from "../context/index";
 import { ToastContainer } from "react-toastify";
+import Alert from '../components/common/Alert';
 
 function MyApp({ Component, pageProps }) {
   const [isSSR, setIsSSR] = useState(true);
@@ -19,6 +20,7 @@ function MyApp({ Component, pageProps }) {
     {!isSSR && (
     
     <StateContextProvider>
+      <Alert/>
     <Component {...pageProps} /> 
     </StateContextProvider>
     

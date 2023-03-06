@@ -76,10 +76,10 @@ function SideMenu() {
 
 
 
-                        <Link
-                            style={{ background: pathname == '/admin/addblog' ? "rgb(153, 246, 228)" : '' }}
+                        {/* <Link
+                            style={{ background: pathname == '/admin' ? "rgb(153, 246, 228)" : '' }}
 
-                            href={'/admin/addblog'}
+                            href={'/admin'}
                             className="rounded-lg px-4 py-2 text-gray-500 hover:bg-teal-100 hover:text-gray-700"
                             passHref
                         >
@@ -99,11 +99,11 @@ function SideMenu() {
                                     />
                                 </svg>
 
-                                New Blog </span>
-                        </Link>
+                                New Project </span>
+                        </Link> */}
 
                         <Link
-                            href={'/admin'}
+                            href={'/admin/projects'}
                             className="rounded-lg px-4 py-2 text-gray-500 hover:bg-teal-100 hover:text-gray-700"
                         >
                             <span className="flex items-center gap-2 text-sm font-medium">
@@ -122,7 +122,7 @@ function SideMenu() {
                                     />
                                 </svg>
 
-                                Analysis </span>
+                                All Projects </span>
                         </Link>
                     </nav>
                 </div>
