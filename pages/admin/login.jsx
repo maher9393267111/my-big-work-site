@@ -4,7 +4,7 @@ import Layout from '../../components/Layout'
 
 export default function Login() {
   return (
-    <Layout>
+    <Layout  noFooter={true} noNavbar={true}>
 <LoginComponent/>
 
 

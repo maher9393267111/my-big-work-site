@@ -29,7 +29,7 @@ export default function LoginForm() {
 {loading && <Loader />}
 
 
-<div class=" m-auto w-1/3 py-4">
+<div class=" m-auto w-2/3 lg:w-1/3 py-4">
 <div class="contact-form-s1">
 <form 
 onSubmit={e => onSubmit(e)}
