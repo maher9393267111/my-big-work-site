@@ -61,10 +61,10 @@ const title = (data) => {
           <div className="row portfolio-gallery-container">
 
 
-          {projects.map((project) => (
+          {projects.map((project ,  index) => (
 
 
-<div className={`portfolio-item ${project?.type}`}>
+<div className={`portfolio-item ${project?.type}`} key={index}>
 <div className="portfolio-item__inner">
   <div className="thumb">
     <img className='w-full h-[430px] md:h-[330px]' src={project?.image} alt="" />
