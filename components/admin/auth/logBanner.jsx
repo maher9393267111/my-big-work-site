@@ -3,6 +3,7 @@ import React from 'react'
 export default function LogBanner() {
   return (
     <>
+    
     <section className="d-page-banner">
 <div className="container">
 <div className="row">
