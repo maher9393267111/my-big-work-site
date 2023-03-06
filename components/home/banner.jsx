@@ -6,8 +6,9 @@ export default function Banner() {
     <div className="stretch-container">
     <div className="row flex-lg-col-reverse">
     <div className="col-lg-6 hero-s2__content">
-    <h2 className="content-sh">World className Cyber Security</h2>
-    <h1 className="content-h">We Bring Great Ideas to Life</h1>
+    <h2 className="content-sh">Future Technology</h2>
+    <h1 dir='rtl' className="content-h    font-arabic"
+    >نحن نقدم  خدمات تقنية وبرمجية في مجال تصميم وبرمجة المواقع وخدمات تصميم هوية بصرية كاملة  </h1>
     <a href="service-detail.html" className="btn btn-s1">Read More</a>
     </div>
     <div className="col-lg-6 hero-s2__thumb">

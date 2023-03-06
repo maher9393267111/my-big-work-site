@@ -74,7 +74,7 @@ export default function Navbar() {
 <nav className="m-nav">
 <ul>
 <li className="dropdown">
-<a href="javascript:void(0)">Home <i className="fa-solid fa-chevron-down"></i
+<a href="">Home <i className="fa-solid fa-chevron-down"></i
                       ></a>
 <ul className="d-menu">
 <li><a href="index-2.html">Home 1</a></li>
@@ -84,8 +84,8 @@ export default function Navbar() {
 </li>
 <li><a href="about.html">About</a></li>
 <li><a href="service.html">Services</a></li>
-<li className="dropdown">
-<a href="javascript:void(0)">Pages <i className="fa-solid fa-chevron-down"></i
+{/* <li className="dropdown">
+<a href="#">Pages <i className="fa-solid fa-chevron-down"></i
                       ></a>
 <ul className="d-menu">
 <li><a href="team.html">Team</a></li>
@@ -99,10 +99,10 @@ export default function Navbar() {
 <li><a href="pricing.html">Pricing</a></li>
 <li><a href="error.html">Error</a></li>
 </ul>
-</li>
+</li> */}
 <li><a href="portfolio.html">Portfolio</a></li>
-<li className="dropdown">
-<a href="javascript:void(0)">Blog <i className="fa-solid fa-chevron-down"></i
+{/* <li className="dropdown">
+<a href="#">Blog <i className="fa-solid fa-chevron-down"></i
                       ></a>
 <ul className="d-menu">
 <li><a href="blog.html">Blog Full Width</a></li>
@@ -112,7 +112,7 @@ export default function Navbar() {
 </li>
 <li><a href="blog-detail.html">Blog Details</a></li>
 </ul>
-</li>
+</li> */}
 <li><a href="contact.html">Contact</a></li>
 </ul>
 </nav>
@@ -147,7 +147,7 @@ export default function Navbar() {
 </header>
 
 
-{/* -SIDEEEE-- */}
+{/* -SIDEEEE MOBILE-- */}
 <aside id="offcanvas-nav">
 <nav className="m-nav">
 <button id="nav-cls-btn"><i className="fa-solid fa-xmark"></i></button>
@@ -156,7 +156,7 @@ export default function Navbar() {
 </div>
 <ul className="nav-links">
 <li className="dropdown">
-<a href="javascript:void(0)">Home <i className="fa-solid fa-chevron-down"></i></a>
+<a href="#">Home <i className="fa-solid fa-chevron-down"></i></a>
 <ul className="d-menu">
 <li><a href="index-2.html">Home 1</a></li>
 <li><a href="index-3.html">Home 2</a></li>
@@ -165,32 +165,9 @@ export default function Navbar() {
 </li>
 <li><a href="about.html">About</a></li>
 <li><a href="service.html">Services</a></li>
-<li className="dropdown">
-<a href="javascript:void(0)">Pages <i className="fa-solid fa-chevron-down"></i></a>
-<ul className="d-menu">
-<li><a href="team.html">Team</a></li>
-<li><a href="team-detail.html">Team Details</a></li>
-<li>
-<a href="service-detail.html">Service Detail</a>
-</li>
-<li>
-<a href="portfolio-detail.html">Portfolio Details</a>
-</li>
-<li><a href="pricing.html">Pricing</a></li>
-<li><a href="error.html">Error</a></li>
-</ul>
-</li>
-<li><a href="portfolio.html">Portfolio</a></li>
-<li className="dropdown">
-<a href="javascript:void(0)">Blog <i className="fa-solid fa-chevron-down"></i></a>
-<ul className="d-menu">
-<li><a href="blog.html">Blog Full Width</a></li>
-<li>
-<a href="blog-right-sidebar.html">Blog Right Sidebar</a>
-</li>
-<li><a href="blog-detail.html">Blog Details</a></li>
-</ul>
-</li>
+
+
+
 <li><a href="contact.html">Contact</a></li>
 </ul>
 <ul className="social-icons-s1">
