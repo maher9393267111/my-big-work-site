@@ -12,6 +12,8 @@ function UpdateBlog() {
     const [value, setValue] = useState("");
     const [title, setTitle] = useState("");
     const [image, setImage] = useState("");
+    const [type, setType] = useState("")
+    const [link, setLink] = useState("")
     const [loading, setLoading] = useState(true);
     const { replace, query } = useRouter();
     const { id } = query;
@@ -25,6 +27,8 @@ function UpdateBlog() {
                 };
                 setTitle(data.title);
                 setValue(data.description);
+                setType(data.type);
+                setLink(data.link);
                 setImage(data.image);
             } catch (error) {
                 console.log(error);
@@ -47,6 +51,8 @@ function UpdateBlog() {
                 title,
                 description: value,
                 image: image,
+                type:type,
+                link: link
             });
             setAlert({
                 isShow: true,
@@ -115,6 +121,7 @@ function UpdateBlog() {
                     setAlert,
                     setLoading,
                     image,
+                    link, setLink, type, setType
                 }}
             />
         </div>

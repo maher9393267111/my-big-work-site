@@ -13,6 +13,8 @@ function AddBlog() {
     const [value, setValue] = useState("");
     const [title, setTitle] = useState("");
     const [image, setImage] = useState("")
+    const [type, setType] = useState("")
+    const [link, setLink] = useState("")
     const [loading, setLoading] = useState(false)
     const { replace } = useRouter()
     const handleClick = async () => {
@@ -65,7 +67,7 @@ function AddBlog() {
       <div>
         <SideMenu />
         {loading && <Loader />}
-        <BlogForm {...{ setTitle, title, value, setValue, handleClick, setImage, setAlert, setLoading, image }} />
+        <BlogForm {...{ setTitle, title, value, setValue, handleClick, setImage, setAlert, setLoading, image , link ,setLink, type, setType }} />
       </div>
   )
 }

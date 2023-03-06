@@ -9,7 +9,7 @@ const QuillNoSSRWrapper = dynamic(import('react-quill'), {
     loading: () => <Loader />,
 })
 
-export default function BlogForm({ setTitle, title, value, setValue, handleClick, setImage, setAlert, setLoading, image }) {
+export default function BlogForm({ setTitle, title, value, setValue, handleClick, setImage, setAlert, setLoading, image,  link ,setLink, type, setType }) {
 
     const [file, setFile] = useState(null)
     const uploadImage = async () => {
@@ -36,7 +36,38 @@ export default function BlogForm({ setTitle, title, value, setValue, handleClick
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
                 />
+
+
             </div>
+
+            <div className="w-full">
+                <input
+                    className='w-full border-2 text-black font-medium rounded-md border-teal-400 py-3 px-6'
+                    type="text"
+                    placeholder="Link"
+                    value={link}
+                    onChange={(e) => setLink(e.target.value)}
+                />
+
+                
+            </div>
+
+
+            <div className="w-full">
+                <input
+                    className='w-full border-2 text-black font-medium rounded-md border-teal-400 py-3 px-6'
+                    type="text"
+                    placeholder="Type"
+                    value={type}
+                    onChange={(e) => setType(e.target.value)}
+                />
+
+                
+            </div>
+
+
+
+
             <div className="w-full h-64">
                 <QuillNoSSRWrapper theme="snow" className='h-full pb-[2.5rem] border-[2.5px] text-black font-medium rounded-md border-teal-400 hover:border-blue-600' value={value} onChange={setValue} />
             </div>
