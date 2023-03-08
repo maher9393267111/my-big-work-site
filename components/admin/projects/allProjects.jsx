@@ -23,9 +23,13 @@ const BlogList = ({ posts }) => {
                         />
                     </div>
                     <div className="p-4">
-                        <Link href={`/blog/${post.id}`} className="text-lg mb-2 text-gray-900 font-cutiveMono tracking-tighter font-semibold hover:text-teal-900 transition-colors cursor-pointer min-h-[3.5rem] block">
+                    {/* `/blog/${post.id}` */}
+                        <a href={`${post?.link}`} 
+                        
+                        
+                        className="text-lg mb-2 text-gray-900 font-cutiveMono tracking-tighter font-semibold hover:text-teal-900 transition-colors cursor-pointer min-h-[3.5rem] block">
                             {title(post.title)}
-                        </Link>
+                        </a>
                         <div className="flex justify-between items-center text-gray">
                             <Link href={`/admin/edit/${post.id}`} passHref>
                                 <span className="text-sm font-medium text-teal-600 hover:text-teal-700 inline-flex items-center">

@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function Navbar() {
   return (
@@ -73,7 +74,7 @@ export default function Navbar() {
 <div className="p-center">
 <nav className="m-nav">
 <ul>
-<li className="dropdown">
+{/* <li className="dropdown">
 <a href="">الرئيسية <i className="fa-solid fa-chevron-down"></i
                       ></a>
 <ul className="d-menu">
@@ -81,9 +82,16 @@ export default function Navbar() {
 <li><a >Home 2</a></li>
 <li><a >Home 3</a></li>
 </ul>
+</li> */}
+
+
+<li><Link href="/">
+  الرئيسية
+</Link>
+
 </li>
 {/* <li><a href="about.html">About</a></li> */}
-<li><a href="service.html">الخدمات التي نقدمها</a></li>
+<li><Link href="/about">الخدمات التي نقدمها</Link></li>
 {/* <li className="dropdown">
 <a href="#">Pages <i className="fa-solid fa-chevron-down"></i
                       ></a>
@@ -113,7 +121,16 @@ export default function Navbar() {
 <li><a href="blog-detail.html">Blog Details</a></li>
 </ul>
 </li> */}
-<li><a href="contact.html">تواصل معنا</a></li>
+
+
+<li><Link href="/projects">
+  من مشاريعنا
+</Link>
+
+</li>
+
+
+<li><Link href="/contact">تواصل معنا</Link></li>
 </ul>
 </nav>
 </div>

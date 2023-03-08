@@ -24,6 +24,8 @@ function AddBlog() {
           title,
           description: value,
           image: image,
+          link: link,
+          type: type,
           date: moment(Date.now()).format("YYYY-MM-DD HH:mm:ss")
         })
         setTitle("")

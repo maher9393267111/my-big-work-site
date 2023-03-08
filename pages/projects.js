@@ -36,7 +36,7 @@ console.log('data' , data   , data?.length)
 
 Projects.getInitialProps = async (context  ) => {
   
-  console.log('Query', context?.query?.country)
+  // console.log('Query', context?.query?.country)
   const data = [];
 
 

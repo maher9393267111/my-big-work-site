@@ -38,16 +38,10 @@ const title = (data) => {
                   <button className="filter-btn current" data-filter="*">
                     All Categories
                   </button>
-                  <button className="filter-btn" data-filter=".software">
-                    Software
-                  </button>
-                  <button className="filter-btn" data-filter=".design">Design</button>
-                  <button className="filter-btn" data-filter=".cyber-security">
-                    Cyber Security
-                  </button>
-                  <button className="filter-btn" data-filter=".engineering">
-                    Engineering
-                  </button>
+                  <button className="filter-btn" data-filter=".javascript">
+                    Javascript
+                      </button>
+                 
                   <button className="filter-btn" data-filter=".reactjs">
                     Reactjs
                   </button>
