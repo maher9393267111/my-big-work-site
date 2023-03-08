@@ -74,16 +74,16 @@ export default function Navbar() {
 <nav className="m-nav">
 <ul>
 <li className="dropdown">
-<a href="">Home <i className="fa-solid fa-chevron-down"></i
+<a href="">الرئيسية <i className="fa-solid fa-chevron-down"></i
                       ></a>
 <ul className="d-menu">
-<li><a href="index-2.html">Home 1</a></li>
-<li><a href="index-3.html">Home 2</a></li>
-<li><a href="index-4.html">Home 3</a></li>
+<li><a >Home 1</a></li>
+<li><a >Home 2</a></li>
+<li><a >Home 3</a></li>
 </ul>
 </li>
-<li><a href="about.html">About</a></li>
-<li><a href="service.html">Services</a></li>
+{/* <li><a href="about.html">About</a></li> */}
+<li><a href="service.html">الخدمات التي نقدمها</a></li>
 {/* <li className="dropdown">
 <a href="#">Pages <i className="fa-solid fa-chevron-down"></i
                       ></a>
@@ -100,7 +100,7 @@ export default function Navbar() {
 <li><a href="error.html">Error</a></li>
 </ul>
 </li> */}
-<li><a href="portfolio.html">Portfolio</a></li>
+{/* <li><a href="portfolio.html">Portfolio</a></li> */}
 {/* <li className="dropdown">
 <a href="#">Blog <i className="fa-solid fa-chevron-down"></i
                       ></a>
@@ -113,12 +113,12 @@ export default function Navbar() {
 <li><a href="blog-detail.html">Blog Details</a></li>
 </ul>
 </li> */}
-<li><a href="contact.html">Contact</a></li>
+<li><a href="contact.html">تواصل معنا</a></li>
 </ul>
 </nav>
 </div>
 <div className="p-right">
-<a href="service.html" className="btn btn-s3">Start a Project</a>
+<a  className="btn btn-s3">Admin Dashboard</a>
 </div>
 </div>
 </div>
