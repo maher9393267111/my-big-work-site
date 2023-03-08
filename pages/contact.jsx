@@ -1,8 +1,120 @@
 import React from 'react'
 import Layout from '../components/Layout/index' 
 import BannerContact from '../components/contact/banner'
+import axios from 'axios';
+import { useState } from 'react';
+import Loader from '../components/common/Loader'
+import { toast } from 'react-toastify'; 
+
+
+const EMAIL_PATTERN = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
 
 export default function Contact() {
+
+	const [emailForm, setEmailForm] = useState({
+		name: "",
+		email: "",
+		subject: "",
+		message: "",
+	});
+
+
+	// Error handling
+
+	const [errors, setErrors] = useState(false);
+	const [errorMsg, setErrorMsg] = useState({});
+
+	// Use boolean to show success message
+
+	const [emailSent, setEmailSent] = useState(false);
+
+	const resetForm = () => {
+		setEmailForm({
+			name: "",
+			email: "",
+			subject: "",
+			message: "",
+		});
+	};
+
+	const handleValidation = ({ name, email, subject, message }) => {
+		if (name === "") {
+			setErrors(true);
+			setErrorMsg({ name: "You must provide a name, please" });
+		} else if (
+			email === undefined ||
+			EMAIL_PATTERN.test(String(email).toLocaleLowerCase())
+		) {
+			setErrors(true);
+			setErrorMsg({ email: "You must provide a valid email, please" });
+		} else if (subject === undefined) {
+			setErrors(true);
+			setErrorMsg({ subject: "You must provide a subject, please" });
+		} else if (message === undefined) {
+			setErrors(true);
+			setErrorMsg({ message: "You must provide a subject, please" });
+		} else {
+			setErrors(false);
+		}
+	};
+
+	const handleSubmit = async(e) => {
+    console.log('SENDDDD')
+		e.preventDefault();
+		const emailToSend = {
+			name: emailForm.name,
+			email: emailForm.email,
+			subject: emailForm.subject,
+			message: emailForm.message,
+		};
+
+		// handleValidation({ ...emailToSend });
+
+		// if (!errors) {
+
+const res = await axios.post('/api/sendEmail', emailToSend)
+
+console.log('response' , res?.data);
+
+if(res.data?.message){
+toast.success(res.data?.message);
+
+}
+
+else{
+  toast.error(res.data?.message);
+}
+
+
+			// axios({
+			// 	method: "post",
+			// 	url: "/api/sendEmail",
+			// 	data: {
+			// 		...emailToSend,
+			// 	},
+			// }).then(() => {
+			// 	setEmailSent(true);
+      //   toast.success('Email sent successfully');
+			// 	resetForm();
+			// }
+      
+      // ).catch(err => {
+
+      //   toast.error(err.message);
+
+      // })
+
+
+
+		// }
+	};
+
+
+
+
+
+
 
   return (
     <Layout>
@@ -51,13 +163,53 @@ export default function Contact() {
 </div>
 <div className="col-lg-7">
 <div className="contact-form-s1">
-<form action="#">
-<input type="text" name="name" placeholder="Your Name*" required />
+<form 
+
+method="POST"
+
+>
+
+
+<input
+
+onChange={(e) =>
+  setEmailForm({ ...emailForm, name: e.target.value })
+}
+type="text" name="name" placeholder="Your Name*" required />
+
+
 <input type="number" name="number" placeholder="Phone Number*" required />
-<input type="email" name="email" placeholder="Your Email*" required />
-<input type="text" name="subject" placeholder="Your Subject*" required />
-<textarea name="message" cols="30" rows="10" placeholder="Message here"></textarea>
-<button type="submit">Submit</button>
+
+
+<input
+onChange={(e) =>
+  setEmailForm({ ...emailForm, email: e.target.value })
+}
+
+type="email" name="email" placeholder="Your Email*" required />
+
+
+<input
+onChange={(e) =>
+  setEmailForm({ ...emailForm, subject: e.target.value })
+}
+
+type="text" name="subject" placeholder="Your Subject*" required />
+
+
+<textarea
+onChange={(e) =>
+  setEmailForm({ ...emailForm, message: e.target.value })
+}
+
+name="message" cols="30" rows="10" placeholder="Message here"></textarea>
+
+
+<button
+  onClick={(e) => {
+    handleSubmit(e);
+  }}
+type="submit">Submit</button>
 </form>
 </div>
 </div>
@@ -65,6 +217,9 @@ export default function Contact() {
 </div>
 </section>
 
+
+
+{errors && <h5 className="form-error">{errorMsg.message}</h5>}
 
 <section className="map-section">
 <div className="row">

@@ -17,16 +17,18 @@ const transporter = nodemailer.createTransport({
 });
 
 
-async function sendEmail({ name, email , subject }) {
+async function sendEmail({ name, email , subject , message }) {
   const emailOptions = {
-    form: `gomemahero@gmail.com`,
-    to: `${name} ${email}`,
-    subject: 'Demo Email',
+    form: `${name}`,
+    to: `gomemahero@gmail.com`,
+    subject: `Contact Message from ${email}`,
     html: `<h2>Email sent from a  ${name}
     
     </br>
 
-    <p>${subject}</p>
+    <h1>${subject}</h1>
+
+    <h1>${message}</h1>
 
     
     </h2>`,
