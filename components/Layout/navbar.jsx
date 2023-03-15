@@ -66,25 +66,27 @@ const closeNav=()=>{
                       >
 </p>
 </div>
+
+
 </div>
 </div>
 <div className="p-right">
 <ul className="social-icons-s1">
 <li>
-<Link href="https://www.facebook.com/Patagonia.tourism?mibextid=ZbWKwl"><i className="fa-brands fa-facebook-f"></i
+<Link href="https://www.facebook.com/profile.php?id=100090340801021"><i className="fa-brands fa-facebook-f"></i
                     ></Link>
 </li>
 
 
 <li>
-<Link href="https://wa.me//905385073947"><i className="fa-brands fa-whatsapp"></i
+<Link href="https://wa.me//905378272857"><i className="fa-brands fa-whatsapp"></i
                     ></Link>
 </li>
 
 
 
 <li>
-<Link href="https://www.instagram.com/patagonia_tourism_industries?igshid=ZDdkNTZiNTM="><i className="fa-brands fa-instagram"></i
+<Link href="https://www.instagram.com/future.tec7/"><i className="fa-brands fa-instagram"></i
                     ></Link>
 
 
