@@ -22,11 +22,14 @@ export default function Document() {
 {/* ----project icon ---- */}
 
 <link
+
           rel="icon"
           href="/assets/images/logos/our-logo.jpeg"
         
          
         />
+
+<title>Future Techno</title>
 
 
 

@@ -152,6 +152,7 @@ else{
 futur2196@gmail.com
 	</span></h4>
 </div>
+
 </a>
 <a href="https://www.google.com/maps/place/QuomodoSoft/@23.8002524,90.359203,13z/data=!4m5!3m4!1s0x0:0x1dea3ec2f7a32054!8m2!3d23.8152118!4d90.3665415" className="c-info-box">
 <div className="icon">

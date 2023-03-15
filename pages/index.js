@@ -13,6 +13,8 @@ import SectionFive from '../components/home/sectionFive'
 
 
 
+
+
 export default function Home() {
 
  
@@ -124,6 +126,7 @@ export default function Home() {
 <div className="date">
 <p>26 May 2022</p>
 </div>
+
 </div>
 <div className="content">
 <ul className="meta">
