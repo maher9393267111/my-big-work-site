@@ -50,7 +50,7 @@ export default function Home() {
 <SectionFive/>
 
 
-<section className="blog-area-s2 s-padding">
+{/* <section className="blog-area-s2 s-padding">
 <div className="container">
 <div className="s-title-wrap">
 <span className="s-sub-title  text-white">Our Latest News</span>
@@ -149,7 +149,7 @@ export default function Home() {
 </div>
 </div>
 </div>
-</section>
+</section> */}
 
 
 

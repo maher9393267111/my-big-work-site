@@ -91,7 +91,8 @@ export default function WhyChooseUs() {
 <div className="row">
 <div className="s-title-wrap">
 <h2 dir='rtl' className="s-title  text-white font-arabic    mr-[2rem] md:mr-[8rem]">
-لماذا تختار تولين تكنولوجي
+لماذا تختار
+ Future technology
 
 </h2>
 </div>

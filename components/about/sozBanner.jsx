@@ -7,8 +7,8 @@ export default function SozBanner() {
 <div className="container">
 <div className="row">
 <div className="conten">
-<h2  className=' text-white text-2xl text-center   font-semibold  font-arabic m-auto w-[60%] leading-10' >
-من نحن و أهم عوامل نجاح شركة تولين تكنولوجي
+<h2  className=' text-white text-2xl text-center   font-semibold  font-arabic m-auto w-[60%] leading-10'>
+  مايميزنا هو
 رؤيتنا المستقبلية تضمن لك تحقيق النجاح المستمر و الوصول إلى عملاء أكثر فعالية و نجاح مضمون و تحقيق مبيعات مستمرة حيث إختيار الجمهور المناسب و المكان المناسب و بأقل تكلفة ممكنة
 
 

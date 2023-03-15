@@ -15,7 +15,7 @@ sure there isn&lsquo;t anything embarrassing
 </div>
 <div class="col-lg-4 contact-banner-s2__button">
 <div>
-<a href="service-detail.html" class="btn btn-s2">Start a Project</a>
+<a href="" class="btn btn-s2">Start a Project</a>
 </div>
 </div>
 </div>

@@ -8,7 +8,7 @@ export default function SectionTwo() {
 <div className="row">
 <div className="s-title-wrap">
 {/* <span className="s-sub-title  text-white">What We’re Offering</span> */}
-<h2 dir='rtl' className="s-title   font-arabic mr-4  text-white">
+<h2 dir='rtl' className="s-title  md:mr-[8rem]  font-arabic   text-white">
   {/* All Professional IT Services */}
   الخطط و الإستراتيجية لنجاح موقعك
 </h2>

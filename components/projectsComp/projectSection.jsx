@@ -28,8 +28,11 @@ const title = (data) => {
       <section className="portfolio-gallery s-padding">
         <div className="container">
           <div className="s-title-wrap">
-            <span className="s-sub-title">Our Portfolio</span>
-            <h2 className="s-title">Some of Our Finest Work</h2>
+            {/* <span className="s-sub-title">Our Portfolio</span> */}
+            <h2 className="s-title   font-arabic">
+بعض النماذج من أعمالنا
+
+            </h2>
           </div>
           <div className="row">
             <div className="col-12">

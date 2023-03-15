@@ -24,7 +24,11 @@ export default function Navbar() {
 </div>
 <div className="content">
 <p>
-<a href="https://quomodothemes.website/cdn-cgi/l/email-protection#e48d8a828b9d8b9196a48389858d88ca878b89"><span className="__cf_email__" data-cfemail="771e1911180e18020537101a161e1b5914181a">[email&#160;protected]</span></a>
+<a href="mailto:futur2196@gmail.com"><span className="__cf_email__" data-cfemail="771e1911180e18020537101a161e1b5914181a">
+  futur2196@gmail.com
+  
+  
+  </span></a>
 </p>
 </div>
 </div>
@@ -34,7 +38,7 @@ export default function Navbar() {
 </div>
 <div className="content">
 <p>
-<a href="https://www.google.com/maps/place/QuomodoSoft/@23.8002524,90.359203,13z/data=!4m5!3m4!1s0x0:0x1dea3ec2f7a32054!8m2!3d23.8152118!4d90.3665415">Circle Kitty New York</a
+<a href="https://www.google.com/maps/place/QuomodoSoft/@23.8002524,90.359203,13z/data=!4m5!3m4!1s0x0:0x1dea3ec2f7a32054!8m2!3d23.8152118!4d90.3665415">Kocaeli , Turkey</a
                       >
 </p>
 </div>
@@ -68,7 +72,12 @@ export default function Navbar() {
 <div className="header-s3__bottom">
 <div className="p-left">
 <div className="logo">
-<img src="assets/images/logos/logo-blue.svg" alt="" />
+<img 
+className=' w-24 h-[77px] object-cover'
+src="/assets/images/logos/our-logo.jpeg"
+// "/assets/images/logos/logo-blue.svg"
+
+alt="" />
 </div>
 </div>
 <div className="p-center">
@@ -85,13 +94,13 @@ export default function Navbar() {
 </li> */}
 
 
-<li><Link href="/">
+<li><a href="/">
   الرئيسية
-</Link>
+</a>
 
 </li>
 {/* <li><a href="about.html">About</a></li> */}
-<li><Link href="/about">الخدمات التي نقدمها</Link></li>
+<li><a href="/about">الخدمات التي نقدمها</a></li>
 {/* <li className="dropdown">
 <a href="#">Pages <i className="fa-solid fa-chevron-down"></i
                       ></a>
@@ -123,20 +132,20 @@ export default function Navbar() {
 </li> */}
 
 
-<li><Link href="/projects">
+<li><a href="/projects">
   من مشاريعنا
-</Link>
+</a>
 
 </li>
 
 
-<li><Link href="/contact">تواصل معنا</Link></li>
+<li><a href="/contact">تواصل معنا</a></li>
 </ul>
 </nav>
 </div>
-<div className="p-right">
+{/* <div className="p-right">
 <a  className="btn btn-s3">Admin Dashboard</a>
-</div>
+</div> */}
 </div>
 </div>
 </div>
@@ -151,7 +160,10 @@ export default function Navbar() {
 <div className="mobile-header__container">
 <div className="p-left">
 <div className="logo">
-<img src="assets/images/logos/logo-blue.svg" alt="" />
+<img
+className=' w-24   h-[62px] object-cover'
+src="assets/images/logos/our-logo.jpeg" 
+alt="" />
 </div>
 </div>
 <div className="p-right">
@@ -169,23 +181,42 @@ export default function Navbar() {
 <nav className="m-nav">
 <button id="nav-cls-btn"><i className="fa-solid fa-xmark"></i></button>
 <div className="logo">
-<img src="assets/images/logos/logo-blue.svg" alt="" />
+<img 
+className=' w-24 h-[77px]  object-cover'
+src="assets/images/logos/our-logo.jpeg"
+ alt="" />
 </div>
 <ul className="nav-links">
 <li className="dropdown">
-<a href="#">Home <i className="fa-solid fa-chevron-down"></i></a>
-<ul className="d-menu">
+<a href="#">
+  الرئيسية
+ {/* <i className="fa-solid fa-chevron-dow"></i> */}
+ 
+ </a>
+
+
+
+{/* <ul className="d-menu">
 <li><a href="index-2.html">Home 1</a></li>
 <li><a href="index-3.html">Home 2</a></li>
 <li><a href="index-4.html">Home 3</a></li>
-</ul>
+</ul> */}
 </li>
-<li><a href="about.html">About</a></li>
-<li><a href="service.html">Services</a></li>
+<li><a href="/about">
+  الخدمات التي نقدمها
+  </a></li>
+<li><a href="/projects">
+  
+  من مشاريعنا
+  </a></li>
 
 
 
-<li><a href="contact.html">Contact</a></li>
+<li><a href="/contact">
+  
+  تواصل معنا
+  
+  </a></li>
 </ul>
 <ul className="social-icons-s1">
 <li>

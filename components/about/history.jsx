@@ -60,11 +60,15 @@
 <div className="col-lg-6">
 <div className="about-s7__thumb">
 <div className="p-left">
-<img src="assets/images/thumbs/about7-1.jpg" alt="" />
-<img src="assets/images/thumbs/about7-2.jpg" alt="" />
+<img 
+src='https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80'
+// src="assets/images/thumbs/about7-1.jpg"
+
+alt="" />
+<img src="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" />
 </div>
 <div className="p-right">
-<img src="assets/images/thumbs/about7-3.png" alt="" />
+<img src="https://images.unsplash.com/photo-1519241047957-be31d7379a5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" />
 </div>
 </div>
 </div>

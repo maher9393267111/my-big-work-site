@@ -6,6 +6,9 @@ export default function Layout({children , noFooter = false, noNavbar =false}) {
   return (
     <div  className=' mb-4 home-2'>
 
+
+
+
 {!noNavbar &&
 
 <Navbar/>

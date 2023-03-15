@@ -19,6 +19,17 @@ export default function Document() {
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;400;500&display=swap" rel="stylesheet"></link>
 
 
+{/* ----project icon ---- */}
+
+<link
+          rel="icon"
+          href="/assets/images/logos/our-logo.jpeg"
+        
+         
+        />
+
+
+
 
 {/* -----------JS----- */}
 

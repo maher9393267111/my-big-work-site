@@ -16,6 +16,10 @@ console.log('data' , data   , data?.length)
 
 
 
+
+
+
+
 <ProjectsBanner/>
 
 <ProjectsSection data={data}/>
