@@ -18,7 +18,12 @@ export default function Features() {
 <img src="assets/images/feature-icons/rocket-icon.png" alt="" />
 </div>
 <div className="content">
-<h4><a href="service-detail.html">Top Flexibility</a></h4>
+<h4>
+  {/* <a href="service-detail.html"> */}
+  Top Flexibility
+  {/* </a> */}
+  
+  </h4>
 <p>
 There are many variations of passages of Lorem Ipsu available
 but the

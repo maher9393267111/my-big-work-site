@@ -15,7 +15,7 @@ export default function Navbar() {
 <i className="fa-solid fa-phone"></i>
 </div>
 <div className="content">
-<p><a href="tel:88 ( 5548 ) 6548">+88 ( 5548 ) 6548</a></p>
+<p><Link href="tel:88 ( 5548 ) 6548">+88 ( 5548 ) 6548</Link></p>
 </div>
 </div>
 <div className="tb-single-info-s2">
@@ -24,11 +24,11 @@ export default function Navbar() {
 </div>
 <div className="content">
 <p>
-<a href="mailto:futur2196@gmail.com"><span className="__cf_email__" data-cfemail="771e1911180e18020537101a161e1b5914181a">
+<Link href="mailto:futur2196@gmail.com"><span className="__cf_email__" data-cfemail="771e1911180e18020537101a161e1b5914181a">
   futur2196@gmail.com
   
   
-  </span></a>
+  </span></Link>
 </p>
 </div>
 </div>
@@ -38,7 +38,7 @@ export default function Navbar() {
 </div>
 <div className="content">
 <p>
-<a href="https://www.google.com/maps/place/QuomodoSoft/@23.8002524,90.359203,13z/data=!4m5!3m4!1s0x0:0x1dea3ec2f7a32054!8m2!3d23.8152118!4d90.3665415">Kocaeli , Turkey</a
+<Link href="https://www.google.com/maps/place/QuomodoSoft/@23.8002524,90.359203,13z/data=!4m5!3m4!1s0x0:0x1dea3ec2f7a32054!8m2!3d23.8152118!4d90.3665415">Kocaeli , Turkey</Link
                       >
 </p>
 </div>
@@ -47,20 +47,20 @@ export default function Navbar() {
 <div className="p-right">
 <ul className="social-icons-s1">
 <li>
-<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-facebook-f"></i
-                    ></a>
+<Link href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-facebook-f"></i
+                    ></Link>
 </li>
 <li>
-<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-twitter"></i
-                    ></a>
+<Link href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-twitter"></i
+                    ></Link>
 </li>
 <li>
-<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-linkedin-in"></i
-                    ></a>
+<Link href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-linkedin-in"></i
+                    ></Link>
 </li>
 <li>
-<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-youtube"></i
-                    ></a>
+<Link href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-youtube"></i
+                    ></Link>
 </li>
 </ul>
 </div>
@@ -84,67 +84,67 @@ alt="" />
 <nav className="m-nav">
 <ul>
 {/* <li className="dropdown">
-<a href="">الرئيسية <i className="fa-solid fa-chevron-down"></i
-                      ></a>
+<Link href="">الرئيسية <i className="fa-solid fa-chevron-down"></i
+                      ></Link>
 <ul className="d-menu">
-<li><a >Home 1</a></li>
-<li><a >Home 2</a></li>
-<li><a >Home 3</a></li>
+<li><Link >Home 1</Link></li>
+<li><Link >Home 2</Link></li>
+<li><Link >Home 3</Link></li>
 </ul>
 </li> */}
 
 
-<li><a href="/">
+<li><Link href="/">
   الرئيسية
-</a>
+</Link>
 
 </li>
-{/* <li><a href="about.html">About</a></li> */}
-<li><a href="/about">الخدمات التي نقدمها</a></li>
+{/* <li><Link href="about.html">About</Link></li> */}
+<li><Link href="/about">الخدمات التي نقدمها</Link></li>
 {/* <li className="dropdown">
-<a href="#">Pages <i className="fa-solid fa-chevron-down"></i
-                      ></a>
+<Link href="#">Pages <i className="fa-solid fa-chevron-down"></i
+                      ></Link>
 <ul className="d-menu">
-<li><a href="team.html">Team</a></li>
-<li><a href="team-detail.html">Team Details</a></li>
+<li><Link href="team.html">Team</Link></li>
+<li><Link href="team-detail.html">Team Details</Link></li>
 <li>
-<a href="service-detail.html">Service Detail</a>
+<Link href="service-detail.html">Service Detail</Link>
 </li>
 <li>
-<a href="portfolio-detail.html">Portfolio Details</a>
+<Link href="portfolio-detail.html">Portfolio Details</Link>
 </li>
-<li><a href="pricing.html">Pricing</a></li>
-<li><a href="error.html">Error</a></li>
+<li><Link href="pricing.html">Pricing</Link></li>
+<li><Link href="error.html">Error</Link></li>
 </ul>
 </li> */}
-{/* <li><a href="portfolio.html">Portfolio</a></li> */}
+{/* <li><Link href="portfolio.html">Portfolio</Link></li> */}
 {/* <li className="dropdown">
-<a href="#">Blog <i className="fa-solid fa-chevron-down"></i
-                      ></a>
+<Link href="#">Blog <i className="fa-solid fa-chevron-down"></i
+                      ></Link>
 <ul className="d-menu">
-<li><a href="blog.html">Blog Full Width</a></li>
+<li><Link href="blog.html">Blog Full Width</Link></li>
 <li>
-<a href="blog-right-sidebar.html">Blog Right Sidebar</a
+<Link href="blog-right-sidebar.html">Blog Right Sidebar</Link
                           >
 </li>
-<li><a href="blog-detail.html">Blog Details</a></li>
+<li><Link href="blog-detail.html">Blog Details</Link></li>
 </ul>
 </li> */}
 
 
-<li><a href="/projects">
+<li><Link href="/projects">
   من مشاريعنا
-</a>
+</Link>
 
 </li>
 
 
-<li><a href="/contact">تواصل معنا</a></li>
+<li><Link href="/contact">تواصل معنا</Link></li>
 </ul>
 </nav>
 </div>
 {/* <div className="p-right">
-<a  className="btn btn-s3">Admin Dashboard</a>
+<Link  className="btn btn-s3">Admin Dashboard</Link>
 </div> */}
 </div>
 </div>
@@ -176,8 +176,8 @@ alt="" />
 </header>
 
 
-{/* -SIDEEEE MOBILE-- */}
-<aside id="offcanvas-nav">
+{/* -SIDEEEE MOBILE--  Linkside */}
+<div id="offcanvas-nav">
 <nav className="m-nav">
 <button id="nav-cls-btn"><i className="fa-solid fa-xmark"></i></button>
 <div className="logo">
@@ -188,56 +188,56 @@ src="assets/images/logos/our-logo.jpeg"
 </div>
 <ul className="nav-links">
 <li className="dropdown">
-<a href="#">
+<Link href="#">
   الرئيسية
  {/* <i className="fa-solid fa-chevron-dow"></i> */}
  
- </a>
+ </Link>
 
 
 
 {/* <ul className="d-menu">
-<li><a href="index-2.html">Home 1</a></li>
-<li><a href="index-3.html">Home 2</a></li>
-<li><a href="index-4.html">Home 3</a></li>
+<li><Link href="index-2.html">Home 1</Link></li>
+<li><Link href="index-3.html">Home 2</Link></li>
+<li><Link href="index-4.html">Home 3</Link></li>
 </ul> */}
 </li>
-<li><a href="/about">
+<li><Link href="/about">
   الخدمات التي نقدمها
-  </a></li>
-<li><a href="/projects">
+  </Link></li>
+<li><Link href="/projects">
   
   من مشاريعنا
-  </a></li>
+  </Link></li>
 
 
 
-<li><a href="/contact">
+<li><Link href="/contact">
   
   تواصل معنا
   
-  </a></li>
+  </Link></li>
 </ul>
 <ul className="social-icons-s1">
 <li>
-<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-facebook-f"></i
-              ></a>
+<Link href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-facebook-f"></i
+              ></Link>
 </li>
 <li>
-<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-twitter"></i
-              ></a>
+<Link href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-twitter"></i
+              ></Link>
 </li>
 <li>
-<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-linkedin-in"></i
-              ></a>
+<Link href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-linkedin-in"></i
+              ></Link>
 </li>
 <li>
-<a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-youtube"></i
-              ></a>
+<Link href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-youtube"></i
+              ></Link>
 </li>
 </ul>
 </nav>
-</aside>
+</div>
 
 
 
