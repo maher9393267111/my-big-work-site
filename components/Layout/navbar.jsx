@@ -71,20 +71,44 @@ const closeNav=()=>{
 <div className="p-right">
 <ul className="social-icons-s1">
 <li>
-<Link href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-facebook-f"></i
+<Link href="https://www.facebook.com/Patagonia.tourism?mibextid=ZbWKwl"><i className="fa-brands fa-facebook-f"></i
                     ></Link>
 </li>
+
+
 <li>
+<Link href="https://wa.me//905385073947"><i className="fa-brands fa-whatsapp"></i
+                    ></Link>
+</li>
+
+
+
+<li>
+<Link href="https://www.instagram.com/patagonia_tourism_industries?igshid=ZDdkNTZiNTM="><i className="fa-brands fa-instagram"></i
+                    ></Link>
+
+
+
+
+{/* <li>
 <Link href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-twitter"></i
                     ></Link>
-</li>
-<li>
+</li> */}
+
+{/* <li>
+
 <Link href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-linkedin-in"></i
                     ></Link>
-</li>
-<li>
+</li> */}
+
+
+
+{/* <li>
 <Link href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-youtube"></i
                     ></Link>
+</li> */}
+
+
 </li>
 </ul>
 </div>

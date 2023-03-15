@@ -50,6 +50,9 @@ export default function TeamSlider() {
 <li>
 <a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-youtube"></i
                     ></a>
+
+                    <a href="https://www.facebook.com/QuomodoSoft"><i className="fa-brands fa-instagram"></i
+                    ></a>
 </li>
 </ul>
 </div>
