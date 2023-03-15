@@ -34,7 +34,16 @@ export default function Document() {
 {/* -----------JS----- */}
 
     
-<Script data-cfasync="false" src="https://quomodothemes.website/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></Script>
+
+
+
+
+        </Head>
+      <body>
+        <Main />
+        <NextScript />
+
+        <Script data-cfasync="false" src="https://quomodothemes.website/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></Script>
 
 
 <Script    type="text/javascript" src="/assets/js/vendor/font-awesome.min.js"  async   strategy='lazyOnload' ></Script>
@@ -61,15 +70,6 @@ src="/assets/js/plugins.js" async   strategy='lazyOnload' ></Script>
 onLoad={()=>console.log('LOADED MAIN FILE 🔸️🔷️🔶️▫️')}
 type="text/javascript" src="/assets/js/main.js" async  strategy='lazyOnload'   ></Script>
 
-
-
-
-
-
-        </Head>
-      <body>
-        <Main />
-        <NextScript />
 
 
 
