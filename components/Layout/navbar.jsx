@@ -1,7 +1,31 @@
 import React from 'react'
 import Link from 'next/link'
+import {useState} from 'react'
 
 export default function Navbar() {
+
+
+  const offcanvasContainer=document.querySelector("#offcanvas-nav");
+  const openBtn=document.querySelector("#nav-opn-btn");
+  const closeBtn=document.querySelector("#nav-cls-btn")
+
+
+const openNav=()=>{
+  const offcanvasContainer=document.querySelector("#offcanvas-nav");
+  offcanvasContainer.classList.add("open");
+  
+
+}
+
+
+const closeNav=()=>{
+  const offcanvasContainer=document.querySelector("#offcanvas-nav");
+  offcanvasContainer.classList.remove("open");
+
+  
+}
+
+
   return (
     <div>
 <header className="header-s3">
@@ -167,7 +191,10 @@ alt="" />
 </div>
 </div>
 <div className="p-right">
-<button id="nav-opn-btn">
+<button
+onClick={openNav}
+
+id="nav-opn-btn">
 <i className="fa-solid fa-bars"></i>
 </button>
 </div>
@@ -179,7 +206,10 @@ alt="" />
 {/* -SIDEEEE MOBILE--  Linkside */}
 <div id="offcanvas-nav">
 <nav className="m-nav">
-<button id="nav-cls-btn"><i className="fa-solid fa-xmark"></i></button>
+<button
+onClick={closeNav}
+
+id="nav-cls-btn"><i className="fa-solid fa-xmark"></i></button>
 <div className="logo">
 <img 
 className=' w-24 h-[77px]  object-cover'

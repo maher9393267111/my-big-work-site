@@ -11,7 +11,14 @@ console.log('CLICKEDDDD')
 
 function closeNav(){document.body.style.overflowY="";offcanvasContainer.classList.remove("open");}
 
-openBtn.addEventListener("click",openNav);closeBtn.addEventListener("click",closeNav);const tabButtons=document.querySelectorAll(".tab-btn");for(let i=0;i<tabButtons.length;i++){tabButtons[i].addEventListener("click",openTab);}
+// openBtn.addEventListener("click",openNav);
+
+
+// closeBtn.addEventListener("click",closeNav);
+
+
+
+const tabButtons=document.querySelectorAll(".tab-btn");for(let i=0;i<tabButtons.length;i++){tabButtons[i].addEventListener("click",openTab);}
 function openTab(event){const tabPanes=event.target.closest(".tab").querySelectorAll(".tab-pane");for(let i=0;i<tabPanes.length;i++){tabPanes[i].classList.remove("active");}
 for(let i=0;i<tabButtons.length;i++){tabButtons[i].classList.remove("active");}
 const tabId=event.target.getAttribute("data-tab");document.getElementById(tabId).classList.add("active");event.target.classList.add("active");}
