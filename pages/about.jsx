@@ -7,8 +7,25 @@ import HistoryAbout from '../components/about/history'
 import SozBanner from '../components/about/sozBanner'
 import WhyChooseUs from '../components/home/WhyChooseUs'
 import WorkingWith from '../components/about/workingWith'
+import { useEffect } from 'react'
+import { getAnalytics, logEvent } from "firebase/analytics";
 
 export default function About() {
+
+
+
+ 
+  useEffect(() => {
+    const analytics = getAnalytics();
+    logEvent(analytics, "screen_About", {
+      firebase_screen: "About",
+    });
+  }, []);
+
+
+
+
+
   return (
     <Layout>
 

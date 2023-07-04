@@ -23,7 +23,7 @@ export default function Home() {
  
   useEffect(() => {
     const analytics = getAnalytics();
-    logEvent(analytics, "screen_view", {
+    logEvent(analytics, "screen_Home", {
       firebase_screen: "Home",
     });
   }, []);

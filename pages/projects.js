@@ -6,9 +6,23 @@ import ServiceSlider from '../components/projectsComp/serviceSlider'
 import { db } from '../firebase';
 import { collection, getDocs } from 'firebase/firestore';
 
+import { useEffect } from 'react'
+import { getAnalytics, logEvent } from "firebase/analytics";
 export default function Projects({data}) {
 
 console.log('data' , data   , data?.length)
+
+
+
+ 
+useEffect(() => {
+  const analytics = getAnalytics();
+  logEvent(analytics, "screen_Projects", {
+    firebase_screen: "Projects",
+  });
+}, []);
+
+
 
 
   return (
