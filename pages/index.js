@@ -7,6 +7,8 @@ import AboutOne from '../components/home/AboutOne'
 import SectionTwo from '../components/home/AboutTwo'
 import WhyChooseUs from '../components/home/WhyChooseUs'
 import SectionFive from '../components/home/sectionFive'
+import { getAnalytics, logEvent } from "firebase/analytics";
+import { useEffect } from 'react'
 
 
 
@@ -17,7 +19,15 @@ import SectionFive from '../components/home/sectionFive'
 
 export default function Home() {
 
+
  
+  useEffect(() => {
+    const analytics = getAnalytics();
+    logEvent(analytics, "screen_view", {
+      firebase_screen: "Home",
+    });
+  }, []);
+
 
 
 
