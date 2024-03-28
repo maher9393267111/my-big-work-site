@@ -37,7 +37,7 @@ export default function Document() {
 {/* ----SEO---- */}
 
 <meta charset="utf-8" />
-        <link rel="icon" href="/favicon.ico" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#1192d3" />
         <meta name="title" content="Works | My project experience" />
